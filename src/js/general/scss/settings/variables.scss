@@ -1,0 +1,24 @@
+$transition-default: 0.3s linear;
+$tablet-header-height: 91px;
+$default-mobile-side-padding: 20px;
+$default-tablet-side-padding: 30px;
+$live-submenu-height: 52px;
+$live-submenu-height-wide-mobile: 70px;
+
+$containerMaxWidth: 1226px;
+$container-wide-max-width: 1366px;
+
+$modal-close-button-size: (
+        mobile: 36px,
+        desktop:48px
+);
+
+$headerLayer: 100;
+$localSpinnerLayer: 110;
+$overlayLayer: 300;
+$submenuLayer: 300;
+$ticketBuilderMobileMenuLayer: 400;
+$mainNavLayer: 500;
+$modalLayer: 500;
+$topLineLayer: $mainNavLayer + 1;
+$pageSpinnerLayer: 600;

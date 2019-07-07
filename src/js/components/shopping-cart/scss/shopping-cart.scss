@@ -1,0 +1,41 @@
+.shopping-cart {
+
+  &__container {
+    max-width: $containerMaxWidth;
+    margin: 0 auto;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px;
+  }
+
+  &__item {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px;
+  }
+
+  &__element-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  &__add-button {
+    cursor: pointer;
+    margin-top: 10px;
+
+    &.is-disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+
+  &__element-delete-button {
+    cursor: pointer;
+    margin-left: 10px;
+  }
+}
